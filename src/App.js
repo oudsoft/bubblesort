@@ -49,9 +49,6 @@ class App extends React.Component {
 	}
 	render() {
 		let nums = JSON.parse(this.state.numbers);
-		console.log('length=>' + nums.length);
-		console.log('count=>' + this.state.count);
-
 		let button;
 		if (nums.length === this.state.count) {
 			button = <button onClick={this.doRefreshPage}>Refresh</button>;
