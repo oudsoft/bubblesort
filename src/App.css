@@ -1,0 +1,7 @@
+	input, button {
+		font-size: 1.3em;
+		line-height: 1.5;
+		width: 100%
+	}
+	button {width: 100%;}
+	.OriginNumbers {color: white; background-color: black; padding: 10px; text-align: center;}
